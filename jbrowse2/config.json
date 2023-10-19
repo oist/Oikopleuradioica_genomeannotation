@@ -1,0 +1,74 @@
+{
+    "configuration": {
+      "rpc": {
+        "defaultDriver": "WebWorkerRpcDriver",
+        "drivers": {
+          "MainThreadRpcDriver": {},
+          "WebWorkerRpcDriver": {}
+        }
+      },
+      "logoPath": {
+        "locationType": "UriLocation",
+        "uri": ""
+      }
+    },
+    "plugins": [],
+    "assemblies": [
+      {
+        "name": "bar2_p4",
+        "sequence": {
+          "type": "ReferenceSequenceTrack",
+          "trackId": "bar2_p4-1697556155490",
+          "adapter": {
+            "type": "IndexedFastaAdapter",
+            "fastaLocation": {
+              "locationType": "UriLocation",
+              "uri": "https://raw.githubusercontent.com/oist/Oikopleuradioica_genomeannotation/main/Bar2_p4/Bar2_p4.fa"
+            },
+            "faiLocation": {
+              "locationType": "UriLocation",
+              "uri": "https://raw.githubusercontent.com/oist/Oikopleuradioica_genomeannotation/main/Bar2_p4/Bar2_p4.fa.fai"
+            },
+            "metadataLocation": {
+              "locationType": "UriLocation",
+              "uri": "/path/to/fa.metadata.yaml"
+            }
+          },
+          "displays": [
+            {
+              "type": "LinearReferenceSequenceDisplay",
+              "displayId": "bar2_p4-1697556155490-LinearReferenceSequenceDisplay"
+            },
+            {
+              "type": "LinearGCContentDisplay",
+              "displayId": "bar2_p4-1697556155490-LinearGCContentDisplay"
+            }
+          ]
+        },
+        "displayName": "Oikopleura Barcelona"
+      }
+    ],
+    "tracks": [
+      {
+        "type": "FeatureTrack",
+        "trackId": "Bar2_p4.Flye.v2.0",
+        "name": "Bar2_p4_v2.0",
+        "adapter": {
+          "type": "Gff3Adapter",
+          "gffLocation": {
+            "uri": "https://raw.githubusercontent.com/oist/Oikopleuradioica_genomeannotation/main/Bar2_p4/Bar2_p4.Flye.v2.0.gff3",
+            "locationType": "UriLocation"
+          }
+        },
+        "assemblyNames": [
+          "bar2_p4"
+        ]
+      }
+    ],
+    "internetAccounts": [],
+    "aggregateTextSearchAdapters": [],
+    "connections": [],
+    "defaultSession": {
+      "name": "New Session"
+    }}
+  

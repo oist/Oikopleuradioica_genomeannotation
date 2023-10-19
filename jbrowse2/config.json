@@ -43,10 +43,48 @@
               "type": "LinearGCContentDisplay",
               "displayId": "bar2_p4-1697556155490-LinearGCContentDisplay"
             }
+
           ]
         },
         "displayName": "Oikopleura Barcelona"
+      },
+
+      {
+        "name": "OKI.I69",
+        "sequence": {
+          "type": "ReferenceSequenceTrack",
+          "trackId": "oki_i69-1697556155490",
+          "adapter": {
+            "type": "IndexedFastaAdapter",
+            "fastaLocation": {
+              "locationType": "UriLocation",
+              "uri": "https://raw.githubusercontent.com/oist/Oikopleuradioica_genomeannotation/main/OKI.I69/OKI.I69.fa"
+            },
+            "faiLocation": {
+              "locationType": "UriLocation",
+              "uri": "https://raw.githubusercontent.com/oist/Oikopleuradioica_genomeannotation/main/OKI.I69/OKI.I69.fa.fai"
+            },
+            "metadataLocation": {
+              "locationType": "UriLocation",
+              "uri": "/path/to/fa.metadata.yaml"
+            }
+          },
+          "displays": [
+            {
+              "type": "LinearReferenceSequenceDisplay",
+              "displayId": "oki_i69-1697556155490-LinearReferenceSequenceDisplay"
+            },
+            {
+              "type": "LinearGCContentDisplay",
+              "displayId": "oki_i69-1697556155490-LinearGCContentDisplay"
+            }
+
+          ]
+        },
+        "displayName": "Oikopleura Okinawa"
       }
+
+      
     ],
     "tracks": [
       {

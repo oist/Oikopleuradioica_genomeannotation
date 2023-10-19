@@ -1,0 +1,24 @@
+{
+  "dateCreated": "2023-10-19T14:45:19.647Z",
+  "tracks": [
+    {
+      "trackId": "OKI.I69.v2.0.gff3",
+      "attributesIndexed": [
+        "Name",
+        "ID"
+      ],
+      "excludedTypes": [
+        "CDS",
+        "exon"
+      ],
+      "adapterConf": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "localPath": "/flash/LuscombeU/nico/Oikopleuradioica_genomeannotation/OKI.I69/OKI.I69.v2.0.gff3",
+          "locationType": "LocalPathLocation"
+        }
+      }
+    }
+  ],
+  "assemblyNames": []
+}

@@ -82,9 +82,43 @@
           ]
         },
         "displayName": "Oikopleura Okinawa"
+      },
+
+      {
+        "name": "OSKA2016v1.9",
+        "sequence": {
+          "type": "ReferenceSequenceTrack",
+          "trackId": "oska2016-1697556155490",
+          "adapter": {
+            "type": "IndexedFastaAdapter",
+            "fastaLocation": {
+              "locationType": "UriLocation",
+              "uri": "https://raw.githubusercontent.com/oist/Oikopleuradioica_genomeannotation/main/OSKA2016v1.9/OSKA2016v1.9.fa"
+            },
+            "faiLocation": {
+              "locationType": "UriLocation",
+              "uri": "https://raw.githubusercontent.com/oist/Oikopleuradioica_genomeannotation/main/OSKA2016v1.9/OSKA2016v1.9.fa.fai"
+            },
+            "metadataLocation": {
+              "locationType": "UriLocation",
+              "uri": "/path/to/fa.metadata.yaml"
+            }
+          },
+          "displays": [
+            {
+              "type": "LinearReferenceSequenceDisplay",
+              "displayId": "oska2016-1697556155490-LinearReferenceSequenceDisplay"
+            },
+            {
+              "type": "LinearGCContentDisplay",
+              "displayId": "oska2016-1697556155490-LinearGCContentDisplay"
+            }
+
+          ]
+        },
+        "displayName": "Oikopleura Osaka"
       }
 
-      
     ],
     "tracks": [
       {

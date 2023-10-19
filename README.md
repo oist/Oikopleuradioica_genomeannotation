@@ -1,5 +1,5 @@
 # Oikopleura dioica genome annotation
-Genome annotation of *Oikopleura dioica* from different geographical locations: Okinawa, Osaka, and Barcelona.
+Genome annotation of *Oikopleura dioica* from different geographical locations: Okinawa, Osaka, and Barcelona. Genome browser is currently hosted on [oikobrowse.jnicolaus.com](http://oikobrowse.jnicolaus.com)
 
 ## About this repository
 
@@ -12,6 +12,12 @@ This repository contains genome annotations of *O. dioica* for the purpose of in
 
 ### Liftoff annotations
 I have also added Liftoff results from Norwegian *O. dioica* which is located under the resource directory in each genome. They were done using the parameters `-flank 0.5` and `-polish`.
+
+### Index files
+Index files are required for fasta and gff files and were created using `samtools faidx` and `jbrowse text-index` respectively.
+
+## JBrowse related files
+JBrowse `config.json` file is within the jbrowse2 directory.
 
 ## How to use this repository
 

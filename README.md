@@ -16,7 +16,10 @@ I have also added Liftoff results from Norwegian *O. dioica* which is located un
 ### Index files
 Index files are required for fasta and gff files and were created using `samtools faidx` and `jbrowse text-index` respectively.
 
-## JBrowse related files
+### Conservation tracks
+Conservation tracks under `/resources/conservation_tracks` were computed using `cactus`, `cactus-hal2maf` and `halPhyloP` using default settings for 4 different species including Osaka, Barcelona, Norway and Okinawa.
+
+### JBrowse related files
 JBrowse `config.json` file is within the jbrowse2 directory.
 
 ## How to use this repository

@@ -19,6 +19,9 @@ Index files are required for fasta and gff files and were created using `samtool
 ### Conservation tracks
 Conservation tracks under `/resources/conservation_tracks` were computed using `cactus`, `cactus-hal2maf` and `halPhyloP` using default settings for 4 different species including Osaka, Barcelona, Norway and Okinawa.
 
+### Synteny track
+Synteny was calculated across species using LAST.
+
 ### JBrowse related files
 JBrowse `config.json` file is within the jbrowse2 directory.
 

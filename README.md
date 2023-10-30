@@ -1,5 +1,5 @@
 # Oikopleura dioica genome annotation
-Genome annotation of *Oikopleura dioica* from different geographical locations: Okinawa, Osaka, and Barcelona. Genome browser is currently hosted on [oikobrowse.jnicolaus.com](http://oikobrowse.jnicolaus.com)
+Genome annotation of *Oikopleura dioica* from different geographical locations: Okinawa, Osaka, and Barcelona. Genome browser is currently hosted on [oikobrowse.jnicolaus.com](http://oikobrowser.jnicolaus.com)
 
 ## About this repository
 

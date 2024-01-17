@@ -8,20 +8,20 @@ This repository contains genome annotations of *O. dioica* for the purpose of in
 ## What is included in this repository
 
 ### Core information
-3 different fasta genome and GFF3 annotation sets that was used in the scrambling paper (Plessy and Mansfield et al., 2023) https://www.biorxiv.org/content/10.1101/2023.05.09.539028v1. The procedure of the genome annotation is detailed on the Bliznina et al., 2021 paper https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-021-07512-6.
+3 different fasta genome and GTF annotation sets that was used in the scrambling paper (Plessy and Mansfield et al., 2023) https://www.biorxiv.org/content/10.1101/2023.05.09.539028v1. The procedure of the genome annotation is detailed on the Bliznina et al., 2021 paper https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-021-07512-6.
 
 These are:
-- `OKI.I69/v2/OKI.I69.v2.0.gff3` Okinawa
-- `Bar2_p4/v1/Bar2_p4.Flye.v1.0.gff3` Barcelona
-- `OSKA2016v1.9/v2/OSKA2016v1.9.v2.0.gff3` Osaka
+- `OKI.I69/v2/OKI.I69.v2.0.gtf` Okinawa
+- `Bar2_p4/v1/Bar2_p4.Flye.v1.0.gtf` Barcelona
+- `OSKA2016v1.9/v2/OSKA2016v1.9.v2.0.gtf` Osaka
 
 ### Other version of annotations
 I have created other versions which incorporate CAGE data from https://github.com/oist/LuscombeU-CAGE_libraries/ to add 5' UTRs as follows:
-- `./OKI.I69/v2.1/OKI2018_I69_5primeutr_v2.1.gff3` v2.0 + 5' UTR
-- `./Bar2_p4/v1.1/Bar2_p4_5primeutr_v1.1.gff3` v1.0 + 5' UTR
-- `./Bar2_p4/v4/Bar2_p4_5primeutr_v4.0.gff3` v1.0 + 5' UTR complemented with liftoff results from Norway (http://oikoarrays.biology.uiowa.edu/Oiko/)
+- `./OKI.I69/v2.1/OKI2018_I69_5primeutr_v2.1.gtf` v2.0 + 5' UTR
+- `./Bar2_p4/v1.1/Bar2_p4_5primeutr_v1.1.gtf` v1.0 + 5' UTR
+- `./Bar2_p4/v4/Bar2_p4_5primeutr_v4.0.gtf` v1.0 + 5' UTR complemented with liftoff results from Norway (http://oikoarrays.biology.uiowa.edu/Oiko/)
   - This modifies the original annotation by adding gene models that do not overlap **in the same strand** with v1.0
-- `./OSKA2016v1.9/v2.1/OSKA2016_5primeutr_v2.1.gff3` v2.0 + 5' UTR
+- `./OSKA2016v1.9/v2.1/OSKA2016_5primeutr_v2.1.gtf` v2.0 + 5' UTR
 
 
 ### Liftoff annotations
@@ -46,8 +46,9 @@ Synteny was calculated across species using LAST.
 To add new genes, please add an identifier so that we know that the gene was edited manually. 
 
 
-More info on gff3 file format:
+More info on gff3 and gtf file formats:
 https://www.ensembl.org/info/website/upload/gff3.html
+https://asia.ensembl.org/info/website/upload/gff.html?redirectsrc=//www.ensembl.org%2Finfo%2Fwebsite%2Fupload%2Fgff.html
 
 ## Contact information
 Johannes Nicolaus Wibisana of The Luscombe Unit of the Okinawa Institute of Science and Technology is maintaining this repository. For questions please email johannes.nicolaus@oist.jp.

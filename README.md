@@ -16,13 +16,15 @@ These are:
 - `OSKA2016v1.9/v2/OSKA2016v1.9.v2.0.gtf` Osaka
 
 ### Other version of annotations
-I have created other versions which incorporate CAGE data from https://github.com/oist/LuscombeU-CAGE_libraries/ to add 5' UTRs as follows:
+1. I have created other versions which incorporate CAGE data from https://github.com/oist/LuscombeU-CAGE_libraries/ to add 5' UTRs as follows:
 - `./OKI.I69/v2.1/OKI2018_I69_5primeutr_v2.1.gtf` v2.0 + 5' UTR
 - `./Bar2_p4/v1.1/Bar2_p4_5primeutr_v1.1.gtf` v1.0 + 5' UTR
 - `./Bar2_p4/v4/Bar2_p4_5primeutr_v4.0.gtf` v1.0 + 5' UTR complemented with liftoff results from Norway (http://oikoarrays.biology.uiowa.edu/Oiko/)
   - This modifies the original annotation by adding gene models that do not overlap **in the same strand** with v1.0
 - `./OSKA2016v1.9/v2.1/OSKA2016_5primeutr_v2.1.gtf` v2.0 + 5' UTR
 
+2. Version X.2 is the version with UTR with the addition of `gene_name` attribute obtained from eggnog using the longest transcript assigned to respective `gene_id` using the following parameters:
+`-m diamond ---evalue 0.001 --score 60 --pident 40 --query_cover 20 --subject_cover 20 --itype proteins --tax_scope auto --target_orthologs all --go_evidence non-electronic --pfam_realign none --report_orthologs`
 
 ### Liftoff annotations
 I have also added Liftoff results from Norwegian *O. dioica* which is located under the resource directory in each genome. They were done using the parameters `-flank 0.5` and `-polish`.

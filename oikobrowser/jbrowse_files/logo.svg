@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 150 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(0.209649,0,0,0.209649,-142.258,-70.1208)">
+        <path d="M879.334,405.671L879.335,405.671C879.335,405.671 872.504,428.493 861.79,439.206C851.077,449.919 842.507,437.064 825.901,473.488C809.296,509.913 795.904,540.446 755.194,536.696C714.484,532.946 688.773,504.557 692.522,467.061C696.272,429.564 742.339,374.927 742.339,374.927C742.339,374.927 783.584,338.503 762.694,382.962C741.803,427.422 711.393,405.853 703.184,470.229C694.958,534.742 790.012,540.446 802.868,484.202C806.497,468.324 812.133,457.569 818.486,449.706C812.665,451.066 807.094,451.713 802,451.646C799.413,451.946 796.581,452.334 793.912,452.822C785.936,454.283 772.119,449.789 774.029,445.408C775.938,441.027 771.22,434.624 768.974,430.131C766.727,425.637 777.046,420.943 777.046,420.943L777.047,420.943C781.821,408.004 795.001,393.78 813.305,383.482C841.771,367.467 871.919,366.972 880.586,382.377C884.225,388.844 883.503,397.092 879.334,405.671Z" style="fill:rgb(235,235,235);stroke:black;stroke-width:1.73px;"/>
+    </g>
+    <g transform="matrix(0.50817,0,0,0.50817,20.0699,12.3527)">
+        <text x="57.316px" y="35.559px" style="font-family:'Roboto-Bold', 'Roboto';font-weight:700;font-size:34.147px;fill:rgb(235,235,235);">Oiko</text>
+        <text x="127.494px" y="35.559px" style="font-family:'Roboto-Thin', 'Roboto';font-weight:250;font-size:34.147px;fill:rgb(235,235,235);">br<tspan x="157.273px " y="35.559px ">o</tspan>wser</text>
+    </g>
+</svg>

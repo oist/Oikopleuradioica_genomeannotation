@@ -15,7 +15,7 @@ jbrowse add-assembly "https://raw.githubusercontent.com/oist//Oikopleuradioica_g
 jbrowse add-track https://raw.githubusercontent.com/oist/Oikopleuradioica_genomeannotation/main/Bar2_p4/v4.2/Bar2_p4_v4.2.gff3 -a Bar2_p4 -n Bar2_p4_v4.2.gff3 --category "annotation" -d "AUGUSTUS annotation + liftoff + CAGE UTR + eggnog gene names"
 jbrowse add-track https://raw.githubusercontent.com/oist/Oikopleuradioica_genomeannotation/main/OKI.I69/v2.2/OKI.I69_v2.2.gff3 -a OKI.I69 -n OKI.I69_v2.2.gff3 --category "annotation" -d "AUGUSTUS annotation + CAGE UTR + eggnog gene names"
 jbrowse add-track https://raw.githubusercontent.com/oist/Oikopleuradioica_genomeannotation/main/OSKA2016v1.9/v2.2/OSKA2016v1.9_v2.2.gff3 -a OSKA2016v1.9 -n OSKA2016v1.9_v2.2.gff3 --category "annotation" -d "AUGUSTUS annotation + CAGE UTR + eggnog gene names"
-jbrowse add-track https://raw.githubusercontent.com/oist/Oikopleuradioica_genomeannotation/main/OdB3/Oidioi_genome.gff3 -a OdB3 -n Oidioi_genome.gff3 --category "annotation" -d "Taken from aniseed"
+jbrowse add-track https://raw.githubusercontent.com/oist/Oikopleuradioica_genomeannotation/main/OdB3/Oidioi_genome.gff3 -a OdB3 -n Oidioi_genome.gff3 --category "annotation" -d "Taken from oikobase"
 
 # liftoff from Norway
 jbrowse add-track https://raw.githubusercontent.com/oist//Oikopleuradioica_genomeannotation/main/Bar2_p4/resources/liftoff/norway_to_bar_gene_models_polished.gff3 -a Bar2_p4 --category "liftoff" -d "Liftoff from norway"

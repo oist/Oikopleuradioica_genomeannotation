@@ -3,7 +3,7 @@
 To add OrthoFinder OG and HOG annotations to a species' gene annotation in GFF format, suitable for viewing in IGV or other browsers.
 
 ## Description
-An R script that uses the TSV output of OrthoFinder (`NX.tsv`, where X is the name of the node on the underlying species tree) and 
+An R script that uses the TSV output of OrthoFinder (`NX.tsv`, where X is the name of the node on the underlying species tree) and adds the orthogroup annotations as an annotation in a species' gene annotation GFF file.
 
 ## Prerequisites
 Requires a new-ish version of R (4.1.0 or later) because it uses pipes.

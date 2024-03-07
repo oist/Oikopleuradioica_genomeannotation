@@ -43,6 +43,8 @@ if(is.na(opt$gff)){
 if(is.na(opt$output)){
 	output_basename <- unlist(strsplit(basename(opt$gff), '.gff'))[1]
 	output_basename <- paste0(output_basename, '_orthofinder.gff3')
+} else {
+	output_basename <- opt$output
 }
 
 ####################################################################
@@ -58,16 +60,19 @@ read_annotation_gff <- function(i_gff, chr_of_interest=NULL) {
 
 
 read_orthofinder <- function(i_of) {
-	of <- read.delim(i_of, sep='\t')
+	i_of <- read.delim(i_of, sep='\t')
 	# Replace empty strings with NA
-	of[of==""] <- NA
+	i_of[i_of==""] <- NA
+	# Remove all-NA columns.
+	i_of <- i_of[,which(!apply(i_of, 2, \(x) all(is.na(x))))]
 	# Get species names from OrthoFinder columns.
-	species_names <- colnames(of)[which( ! colnames(of) %in% c('HOG', 'OG', 'Gene.Tree.Parent.Clade') )]
+	species_names <- colnames(i_of)[which( ! colnames(i_of) %in% c('HOG', 'OG', 'Gene.Tree.Parent.Clade') )]
+	
 	# Return a long-formatted data.frame for every species.
 	of_by_sp <- lapply(species_names, function(sp) {
 		# Include all OGs and HOGs.
-		sp_df <- data.frame(OG=of$OG, HOG=of$HOG)
-		sp_df$IDs <- unlist(of[[sp]])
+		sp_df <- data.frame(OG=i_of$OG, HOG=i_of$HOG)
+		sp_df$IDs <- unlist(i_of[[sp]])
 		# Exclude orthogroups with NAs for that species.
 		sp_df <- sp_df[!is.na(sp_df$IDs),]
 		# Break apart ID list

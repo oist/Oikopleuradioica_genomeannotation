@@ -1,5 +1,5 @@
 # Oikopleura dioica genome annotation
-Genome annotation of *Oikopleura dioica* from different geographical locations: Okinawa, Osaka, and Barcelona. Genome browser is currently hosted on [oikobrowse.jnicolaus.com](http://oikobrowser.jnicolaus.com)
+Genome annotation of *Oikopleura dioica* from different geographical locations: Okinawa, Osaka, and Barcelona. Genome browser is currently hosted on [oikobrowser.jnicolaus.com](http://oikobrowser.jnicolaus.com)
 
 ## About this repository
 
@@ -23,8 +23,11 @@ These are:
   - This modifies the original annotation by adding gene models that do not overlap **in the same strand** with v1.0
 - `./OSKA2016v1.9/v2.1/OSKA2016_5primeutr_v2.1.gtf` v2.0 + 5' UTR
 
-2. Version X.2 is the version with UTR with the addition of `gene_name` attribute obtained from eggnog using the longest transcript assigned to respective `gene_id` using the following parameters:
+2. Version X.2 is the version with 5' UTR with the addition of `gene_name` attribute obtained from eggnog using the longest transcript assigned to respective `gene_id` using the following parameters:
 `-m diamond ---evalue 0.001 --score 60 --pident 40 --query_cover 20 --subject_cover 20 --itype proteins --tax_scope auto --target_orthologs all --go_evidence non-electronic --pfam_realign none --report_orthologs`
+
+3. Version X.3 is the version with 5' UTR (CAGE) and 3' UTR (Canonical polyA site), supplemented with valid liftoff gene models, and genes split according to CAGE peaks and liftoff gene models using the package `github.com/oist/LuscombeU_annotationpolish`
+
 
 ### Liftoff annotations
 I have also added Liftoff results from Norwegian *O. dioica* which is located under the resource directory in each genome. They were done using the parameters `-flank 0.5` and `-polish`.

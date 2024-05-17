@@ -26,7 +26,7 @@ These are:
 2. Version X.2 is the version with 5' UTR with the addition of `gene_name` attribute obtained from eggnog using the longest transcript assigned to respective `gene_id` using the following parameters:
 `-m diamond ---evalue 0.001 --score 60 --pident 40 --query_cover 20 --subject_cover 20 --itype proteins --tax_scope auto --target_orthologs all --go_evidence non-electronic --pfam_realign none --report_orthologs`
 
-3. Version X.3 is the version with 5' UTR (CAGE) and 3' UTR (Canonical polyA site), supplemented with valid liftoff gene models, and genes split according to CAGE peaks and liftoff gene models using the package `github.com/oist/LuscombeU_annotationpolish`
+3. Version X.3 is the version with 5' UTR (CAGE) and 3' UTR (Canonical polyA site), supplemented with valid liftoff gene models, and genes split according to CAGE peaks and liftoff gene models using the package `github.com/oist/LuscombeU_annotationpolish`. GTF was created using AGAT, gff3 files were sanitised using AGAT.
 
 
 ### Liftoff annotations

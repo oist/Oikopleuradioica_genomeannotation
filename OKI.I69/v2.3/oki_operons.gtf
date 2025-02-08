@@ -1,6 +1,6 @@
 ##gff-version 2
 ##source-version rtracklayer 1.60.1
-##date 2024-11-22
+##date 2025-02-08
 chr1	annotationpolish	operon	270825	275531	0	+	.	operon_id "operon_1"; gene_ids "c("g11", "g12")"
 chr1	annotationpolish	operon	281298	282702	0	+	.	operon_id "operon_2031"; gene_ids "c("g16", "g17")"
 chr1	annotationpolish	operon	556381	567628	0	+	.	operon_id "operon_2724"; gene_ids "c("g57", "g58", "g59")"

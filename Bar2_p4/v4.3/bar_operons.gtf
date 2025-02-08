@@ -1,6 +1,6 @@
 ##gff-version 2
 ##source-version rtracklayer 1.60.1
-##date 2024-11-22
+##date 2025-02-08
 XSR	annotationpolish	operon	42772	55712	0	+	.	operon_id "operon_1807"; gene_ids "c("g9989", "g9990")"
 XSR	annotationpolish	operon	56326	65567	0	+	.	operon_id "operon_1899"; gene_ids "c("g9991", "g9992", "g9993")"
 XSR	annotationpolish	operon	68240	78922	0	+	.	operon_id "operon_1993"; gene_ids "c("g9994", "GSOIDG00004730001")"

@@ -8,7 +8,7 @@ This repository contains genome annotations of *O. dioica* for the purpose of in
 ## What is included in this repository
 
 ### Core information
-3 different fasta genome and GTF annotation sets that was used in the scrambling paper (Plessy and Mansfield et al., 2023) https://www.biorxiv.org/content/10.1101/2023.05.09.539028v1. The procedure of the genome annotation is detailed on the Bliznina et al., 2021 paper https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-021-07512-6.
+3 different fasta genome and "v2" GTF annotation sets that was used in the scrambling paper ([Plessy and Mansfield et al., 2024](https://doi.org/10.1101/gr.278295.123)). The procedure of the "v1" genome annotation is detailed on the [Bliznina et al., 2021](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-021-07512-6) paper.
 
 These are:
 - `OKI.I69/v2/OKI.I69.v2.0.gtf` Okinawa
